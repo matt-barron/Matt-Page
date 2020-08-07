@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header-color {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,  #434343, #434343); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #434343);
+}
+.landing-grid{
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,  #434343, #434343); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #434343);
+  text-align: center;
+  position: fixed;
+  top: 10;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+.my-image{
+  height:250px;
+  //padding-top: 2em;
+  border-radius: 50%;
+}
+.banner-text{
+  background-color: black;
+  opacity: .8;
+  width: 75;
+  margin: auto;
+  border-radius: 10px;
+}
+.banner-text h1{
+  text-align: center;
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+.banner-text hr{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+.banner-text p{
+  text-align: center;
+  font-size: 16px;
+  padding: 1em;
+  color: white;
+}
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+
+}
+.social-links i{
+  color: white;
+  font-size: 1.8em;
+}
+/*about me css */
+
+.aboutMe-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.aboutMe-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.aboutMe-grid h2 {
+  font-family: 'Oxygen Mono', sans-serif;
+}
+
+.aboutMe-grid p {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.aboutMe-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+  color: white;
+}
+
+
+/* about me css */
+/*school images*/
+.school-pic {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  margin: auto;
+}
+/* Experience page */
+.experience-right-col{
+  background: #434343;
+  color: white;
+  padding: 2em;
+}
