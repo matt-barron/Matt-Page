@@ -19,7 +19,7 @@ function App() {
                   </div>
                 </Navigation>
             </Header>
-            <Drawer title=<Link to="/">Matthew Barron</Link>>
+            <Drawer className='drawer-color' title=<Link to="/">Matthew Barron</Link>>
                 <Navigation>
                     <Link to="/education">Education</Link>
                     <Link to="/experience">Experience</Link>

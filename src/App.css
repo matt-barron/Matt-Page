@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -12,7 +14,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.drawer-color{
+  color: white;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -58,7 +62,6 @@
   border-radius: 50%;
 }
 .banner-text{
-  background-color: black;
   opacity: .8;
   width: 75;
   margin: auto;

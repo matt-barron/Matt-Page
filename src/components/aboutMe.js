@@ -18,12 +18,13 @@ class AboutMe extends Component {
              style={{height: '250px'}}
               />
             <h4 style={{background: '#434343', color: 'white'}}>Programmer</h4>
-            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Contact me:</p>
-            <h5>Email</h5>
-            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>matthew.barron@macaulay.cuny.edu</p>
-            <h5>Phone</h5>
-            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Phone: 914-619-4166</p>
-            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Contact form coming soon. </p>
+               <h4 style={{ textAlign: 'center', width: '75%', margin: 'auto', paddingTop: '1em', textDecorationLine: 'underline'}} >Contact me:</h4>
+               <h5 style={{textAlign: 'center'}}>Email</h5>
+               <p style={{ textAlign: 'center', width: '75%', margin: 'auto', paddingTop: '1em', fontSize: '17px'}}>matthew.barron@macaulay.cuny.edu</p>
+               <h5 style={{textAlign: 'center'}}>Phone</h5>
+               <p style={{ textAlign: 'center', width: '75%', margin: 'auto', paddingTop: '1em', fontSize: '17px'}}>Phone: 914-619-4166</p>
+               <p style={{ textAlign: 'center', width: '75%', margin: 'auto', paddingTop: '1em', fontSize: '40px'}}><a href="https://github.com/matt-barron" target="-blank" rel="noopener noreferrer"><i class="fa fa-github-square" aria-hidden="true"/></a></p>
+               <p style={{ textAlign: 'center', width: '75%', margin: 'auto', paddingTop: '1em', fontSize: '40px'}}><a href="https://www.linkedin.com/in/matthew-barron-b55369185/" target="-blank" rel="noopener noreferrer"><i class="fa fa-linkedin" aria-hidden="true"/></a></p>
          </Cell>
          <Cell className='experience-right-col' col={6}>
            <div className="aboutMe-list">

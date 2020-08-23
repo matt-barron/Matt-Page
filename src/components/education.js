@@ -16,7 +16,7 @@ const Education = () => {
             <ListItem>
               <ListItemContent style={{fontSize: '30px', fontFamily: 'Latos'}}>
               <hr/>
-              Highschool of American Studies at Lehman College
+              High School of American Studies at Lehman College
               <hr/>
               </ListItemContent>
             </ListItem>
@@ -27,7 +27,7 @@ const Education = () => {
             </ListItem>
             <ListItem>
               <ListItemContent style={{fontSize: '15px', fontFamily: 'Arial'}}>
-              *One of the nine Specialized Highschool in New York City. Admissions are based on the Specialiazed Highschool admission's test.
+              *One of the nine Specialized High School in New York City. Admissions are based on the Specialiazed high school admission's test.
               </ListItemContent>
             </ListItem>
             <ListItem>
